@@ -47,7 +47,7 @@ const Feed: React.FC<Props> = () => {
         }}
       >
         <ProfileCard />
-        # <ServiceCard />
+
         <ContactCard />
         <div className="footer">
           <Footer />
@@ -56,6 +56,8 @@ const Feed: React.FC<Props> = () => {
     </StyledWrapper>
   )
 }
+// between Profilecard and ContactCard, <ServiceCard />
+
 
 export default Feed
 
