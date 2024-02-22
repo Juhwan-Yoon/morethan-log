@@ -55,7 +55,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: "Juhwan_yoon/Comments",
+      repo: "Juhwan-Yoon/Comments",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
