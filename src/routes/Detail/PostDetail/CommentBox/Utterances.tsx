@@ -21,6 +21,7 @@ const Utterances: React.FC<Props> = ({ issueTerm }) => {
     if (!anchor) return
 
     script.setAttribute("src", "https://utteranc.es/client.js")
+    script.setAttribute('repo', 'Juhwan-Yoon/Comments');
     script.setAttribute("crossorigin", "anonymous")
     script.setAttribute("async", `true`)
     script.setAttribute("issue-term", issueTerm)
